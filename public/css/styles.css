@@ -273,6 +273,10 @@ img {
     background-color: transparent;
 }
 
+#to-language-field {
+    height: 100%;
+}
+
 .translator__footer {
     display: flex;
     align-items: center;
