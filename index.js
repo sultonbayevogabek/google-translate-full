@@ -20,9 +20,9 @@ fs.readdir(routesPath, (err, files) => {
    })
 });
 
-(async _ => {
+;(async _ => {
    try {
-      app.listen(3000, () => {
+      app.listen(2000, () => {
          console.log('SERVER LISTENING AT http://localhost:3000')
       })
    } catch (e) {
