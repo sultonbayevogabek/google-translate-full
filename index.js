@@ -5,7 +5,6 @@ const app = express()
 const cors = require('cors')
 
 app.set('view engine', 'ejs')
-
 app.use(express.static(path.join(__dirname, 'public')))
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
@@ -22,7 +21,7 @@ fs.readdir(routesPath, (err, files) => {
 
 ;(async _ => {
    try {
-      app.listen(2000, () => {
+      app.listen(3000, () => {
          console.log('SERVER LISTENING AT http://localhost:3000')
       })
    } catch (e) {
